@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "724921492809",
+    "project_id": "hospital-management-syst-84a33",
+    "storage_bucket": "hospital-management-syst-84a33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724921492809:android:9c2b4c03dd060cd845e698",
+        "android_client_info": {
+          "package_name": "com.example.dineshhospital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724921492809-sqnv97pvvr4j1lebvmi17adhrcpk1obe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQFvZWSLTPdImTjpSlXsb88xsUCeub2fE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724921492809-sqnv97pvvr4j1lebvmi17adhrcpk1obe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

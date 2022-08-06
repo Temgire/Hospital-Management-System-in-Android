@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".appoitmentbook">
+
+    <TextView
+        android:id="@+id/bed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Book Appointment"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/di1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bed1"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:gravity="center"
+        android:hint="Enter Patient Name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/di2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/di1"
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/ic_baseline_add_box_24"
+        android:gravity="center"
+        android:hint="Enter Patient Symptoms"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/di3"
+        android:textColorHint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/di2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:hint="Select Date"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/di2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/di3"
+        android:text="Select Date"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/di4"
+        android:textColorHint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/di3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:hint="Select Date"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt1"
+        android:layout_marginLeft="40dp"
+        android:inputType="text"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/di4"
+        android:text="Select Time"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bt2"
+        android:layout_marginTop="40dp"
+        android:text="Book Appointment "
+        android:onClick="submit"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
